@@ -1,0 +1,57 @@
+/* Crew.module.css */
+
+.container {
+    display: flex;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.contentBox { /* Updated to camelCase */
+    flex: 1;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.contentBox h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contentBox p {
+    padding: 20px;
+}
+
+.contentBox h2 span {
+    color: #0158F7;
+}
+
+.imageBox { /* Updated to camelCase */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageBox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.discoverMore { /* Updated to camelCase */
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #0158F7;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.arrow {
+    margin-left: 5px;
+    font-size: 18px;
+}
